@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    color:black;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.introduction{
+    color: black;
+}
+
+span{
+    color: blue;
+}
+
+
+button {
+    padding: 5px 20px;
+    background-color: lightgrey;
+    color: black;
+    border-style: none;
+  }
