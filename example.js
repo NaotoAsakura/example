@@ -48,7 +48,7 @@ startButton.onclick = () =>{
            dt = new Date();
            if(dt.getTime() >= endDt.getTime()){
              clearInterval(id);
-             document.write("Finish!" + 'あなたのスコアは' + score + '/' + question + 'です。');//スコア(0/0)を表示して終了
+             document.write("Finish!" + 'あなたのスコアは' + score + 'です。');//スコアを表示して終了
             }
         }, 1000);
     }
